@@ -16,7 +16,7 @@ end
 
 def select_series_title_with_most_human_characters
   "SELECT series.title FROM series    
-  JOIN books ON books.
+  JOIN books ON books.series_id = series.id JOIN 
   
   
   GROUP BY species ORDER BY"
